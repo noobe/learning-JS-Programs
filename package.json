@@ -1,0 +1,23 @@
+{
+  "name": "learning-js-programs",
+  "version": "1.0.0",
+  "description": "Re-learning JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noobe/learning-JS-Programs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noobe/learning-JS-Programs/issues"
+  },
+  "homepage": "https://github.com/noobe/learning-JS-Programs#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
