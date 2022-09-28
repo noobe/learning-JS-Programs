@@ -1,0 +1,1 @@
+/* Write a function that will return whether or not a string is a palindrome. */

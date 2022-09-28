@@ -1,0 +1,1 @@
+/* Create a function that takes in two strings as two parameters and returns a Boolean that indicates whether or not the first string is an anagram of the second string. */

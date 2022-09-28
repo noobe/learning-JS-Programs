@@ -1,0 +1,1 @@
+/* Most commonly used character in a string. Write a function that takes a string and returns the character that is most commonly used in the string. */
