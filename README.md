@@ -8,3 +8,15 @@ JS APIs
   Callback hell
   Promises
   Promise Combinators
+  Web socket
+  Web Workers
+
+
+JS Paradigms
+  Imperative
+  Object Oriented
+  Functional
+  OOP Vs FP
+
+JS Challenges
+  
