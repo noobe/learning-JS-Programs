@@ -2,7 +2,7 @@ function Animal(name) {
   this.name = name;
 }
 
-Animal.prototype.say = function() {
+Animal.prototype.sayName = function() {
   console.log('My name is :', this.name);
 }
 
@@ -13,4 +13,4 @@ function Dog(name){
 Dog.prototype = new Animal();
 
 const jacky = new Dog('jacky');
-jacky.say();
+jacky.sayName();
