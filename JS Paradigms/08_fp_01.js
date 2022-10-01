@@ -46,3 +46,9 @@ const createDog = (name, owner) => {
       ...canBark(state)
   }
 }
+
+fabrizio = createPetOwner('Fabrizio', 'example@example.com')
+bingo = createDog('Bingo', fabrizio)
+
+console.log(fabrizio.talk()) // Hi! I'm Fabrizio
+console.log(bingo.bark()) // Woof! I'm Bingo and Fabrizio is my
