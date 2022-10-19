@@ -7,12 +7,16 @@ class Animal{
   }
 }
 
+class Cat extends Animal{
+
+}
+
 class Dog extends Animal{
   /* when child has its own constructor then the instantiator is confused on which constructor to use when instantiating an object from this class, as both parent and child has their own -> ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor */
 
-  constructor(breed){
+  constructor(name, breed){
     /* Using super will call the constructor of the parent */
-    super('jacky')
+    super(name)
     this.breed = breed;
   }
 
@@ -22,9 +26,12 @@ class Dog extends Animal{
   }
 }
 
-const kitty = new Animal('kitty');
+const jack = new Animal('Jack');
+jack.say();
+
+const kitty = new Cat('Kitty');
 kitty.say();
 
-const jacky = new Dog('Doberman');
+const jacky = new Dog('jacky', 'Doberman');
 jacky.say();
 

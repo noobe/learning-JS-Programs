@@ -22,4 +22,4 @@ function objFlattener (obj) {
     return res;
 }
 
-objFlattener(test);
+console.log(objFlattener(test));
